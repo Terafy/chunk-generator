@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0aabbb85e33c8409511ae7f7fade96, type: 3}
+  m_Name: meadows_perlin
+  m_EditorClassIdentifier: 
+  scale: 16
+  randomizeSeed: 1
+  seed: 0
+  octaves: 3
+  persistence: 0.5
+  lacunarity: 2
+  offset: {x: 0, y: 0}
+  maxTerrainHeight: 16
+  chunkMaxHeight: 64
+  zeroHeight: 14
+  maxDown: 3
+  enableCaves: 1
+  caveScale: 10
+  caveOctaves: 3
+  cavePersistence: 0.5
+  caveLacunarity: 2
+  caveOffset: {x: 0, y: 0, z: 0}
+  caveThreshold: 0.6
+  cavePercentage: 0.2
+  caveMinDepth: 2

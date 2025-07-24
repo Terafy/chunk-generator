@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872077bc7d2bb864dba7124e3a548139, type: 3}
+  m_Name: meadows
+  m_EditorClassIdentifier: 
+  Width: 10
+  Length: 10
+  layers:
+  - bloc: {fileID: 11400000, guid: a84391f7e60254d479cd1f1fb31913ff, type: 2}
+    thickness: 1
+    ores: []
+  - bloc: {fileID: 11400000, guid: 06db93f9c07854447bd153ebd3c38444, type: 2}
+    thickness: 3
+    ores:
+    - block: {fileID: 11400000, guid: d791e02bc04666a4ba64dff9eabd6b71, type: 2}
+      chance: 0.04
+      minTotalOres: 3
+      maxTotalOres: 8
+      clusterSize: 1
+      noiseScale: 1
+  - bloc: {fileID: 11400000, guid: 3b5077811388fc34f8dcb523f6ba41ec, type: 2}
+    thickness: 6
+    ores:
+    - block: {fileID: 11400000, guid: f4ad2669df044c242b63ba8d5aee6ecc, type: 2}
+      chance: 0.02
+      minTotalOres: 3
+      maxTotalOres: 8
+      clusterSize: 1
+      noiseScale: 1
+  - bloc: {fileID: 11400000, guid: 390d1ce902718e140a9113975b32c44f, type: 2}
+    thickness: 6
+    ores: []
+  structures:
+  - config: {fileID: 11400000, guid: 8c8fe21fe07ce0a45b00b1083fb2bbb5, type: 2}
+    minCount: 2
+    maxCount: 3
+    spawnChance: 80
+    minDistance: 2
+  globalBlockConfigs:
+  - {fileID: 11400000, guid: a84391f7e60254d479cd1f1fb31913ff, type: 2}
+  - {fileID: 11400000, guid: 06db93f9c07854447bd153ebd3c38444, type: 2}
+  - {fileID: 11400000, guid: 3b5077811388fc34f8dcb523f6ba41ec, type: 2}
+  - {fileID: 11400000, guid: 390d1ce902718e140a9113975b32c44f, type: 2}
+  - {fileID: 11400000, guid: 919de1f79f09c2249a88e69438354838, type: 2}
+  - {fileID: 11400000, guid: d791e02bc04666a4ba64dff9eabd6b71, type: 2}
+  - {fileID: 11400000, guid: f4ad2669df044c242b63ba8d5aee6ecc, type: 2}
+  generator: {fileID: 11400000, guid: 31734d1764b76df4d9115c97958b9526, type: 2}
